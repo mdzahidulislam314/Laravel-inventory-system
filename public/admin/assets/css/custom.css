@@ -1,0 +1,39 @@
+.vertical-menu{
+    top: 55px;
+}
+
+body[data-layout=detached] #layout-wrapper::before{
+    height: 153px;
+}
+
+body[data-layout=detached] .page-title-box{
+    padding-bottom: 5px;
+}
+
+.total-sum {
+    display: inline-block;
+    float:right;
+}
+.add-buttn {
+    display: inline-block;
+}
+
+.exp-link a {
+    margin-right: 10px;
+    font-weight: 500;
+    color:black;
+    display: inline-block;
+}
+img#output {
+    margin-top: 10px;
+    border: 1px solid #585858;
+    border-radius: 12px;
+}
+
+button.btn.btn-secondary.buttons-copy.buttons-html5 {
+    display: none;
+}
+
+button.btn.btn-secondary.buttons-pdf.buttons-html5 {
+    display: none;
+}
